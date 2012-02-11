@@ -1,2 +1,0 @@
-DRC SAVE '/Users/gentry/Documents/ATmega128RFA1 Dev Board-v11/ATmega128RFA1 Dev Board-v11.dru';
-RUN brd_to_dsn.ulp f;
