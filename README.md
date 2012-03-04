@@ -5,20 +5,20 @@ See http://www.sparkfun.com/products/9734
 
 Some of the complaints in the comments that I've started to address:
 
-#### 1) If you solder headers into the battery (for hitec connector), ISP,
+1) If you solder headers into the battery (for hitec connector), ISP,
 and uart pins, you won’t be able to insert the ISP programmer
 connector – there isn’t any room! If you use this, put your
 battery/uart headers underneath your board. A bit silly, but no other
 choice.  
 [Moved the ISP header left, hopefully gives enough room]
 
-#### 2) With nothing connected but a fully charged 6V battery, this board still has bad voltage drops when turning on the transmitter. You must solder on a capacitor between ground and 3.3V or it won’t work. I put a 20uF tantelum on it, and the resets went away.
+2) With nothing connected but a fully charged 6V battery, this board still has bad voltage drops when turning on the transmitter. You must solder on a capacitor between ground and 3.3V or it won’t work. I put a 20uF tantelum on it, and the resets went away.
 <br>[suggested 20uF tantalum in the C5 silkscreen]
 
-#### 4) The traces look like someone used Eagle CAD auto-route and called it a day, without doing much of any touching up.
-<br>[Reduced number of vias by about 50%, made antenna signal lines straighter and kept them on top of the board]
+4) The traces look like someone used Eagle CAD auto-route and called it a day, without doing much of any touching up.
+<br>[Reduced number of vias by about 50%, made antenna signal lines straighter and kept them on top of the board, beefed up power and ground lines where I could]
 
-#### My suggestion: get rid of the power jack and then by careful redesign a similar board can be made small enough to fit in a breadboard, maybe even cheap enough for some of the people complaining about the high price tag.
+My suggestion: get rid of the power jack and then by careful redesign a similar board can be made small enough to fit in a breadboard, maybe even cheap enough for some of the people complaining about the high price tag.
 <br>[to do, but not sure that'll make it super small anyway]
 
 Oh heck, if any of you guys at SparkFun are listening, here’s my wish-list for a hypothetical future revision of this board:
