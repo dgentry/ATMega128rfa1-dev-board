@@ -2226,6 +2226,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.28" y1="45.74" x2="12.7" y2="45.74" width="0" layer="1"/>
 <wire x1="13.335" y1="45.74" x2="13.28" y2="45.74" width="0.2032" layer="1"/>
 <wire x1="13.28" y1="45.74" x2="12.7" y2="45.74" width="0.2032" layer="1"/>
+<wire x1="6.985" y1="47.498" x2="6.985" y2="48.895" width="0.254" layer="1"/>
 </signal>
 <signal name="AREF">
 <contactref element="U1" pad="62"/>
@@ -2281,58 +2282,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.53" y1="30.4879" x2="19.53" y2="42.49" width="0.2032" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,322ccb2aca2e3328"/>
-<approved hash="3,1,c80c8e0a8ecec8c8"/>
-<approved hash="3,1,9c3cba3aba2a9c2c"/>
-<approved hash="3,1,3e2dc32bc32a3e2c"/>
-<approved hash="3,1,6bbc12ba12156b13"/>
-<approved hash="3,1,05ac58aa59ae04a8"/>
-<approved hash="3,1,b0f23bac39113807"/>
-<approved hash="3,1,9c8cba8abb3c9d3a"/>
-<approved hash="3,1,cfbc89ba9622d024"/>
-<approved hash="3,1,65ecfbeaf9e267e4"/>
-<approved hash="3,1,0c6f4a694be90def"/>
-<approved hash="3,1,2c232a252bd82dde"/>
-<approved hash="3,1,8c8cca8acb3a8d3c"/>
-<approved hash="3,1,313cc83ac85a315c"/>
-<approved hash="3,1,e06d0d6d0e4fe34f"/>
-<approved hash="3,1,2dfc2bfa2b992d9f"/>
-<approved hash="3,1,bb7832b623bbc5a8"/>
-<approved hash="3,1,603c7a3a7a29602f"/>
-<approved hash="3,1,5ac484bdb4363638"/>
-<approved hash="3,1,2483328532c524c3"/>
-<approved hash="3,1,bd344a81a5d8fcb2"/>
-<approved hash="3,1,2c8f2a89294f2f49"/>
-<approved hash="3,1,c32c032a0329c32f"/>
-<approved hash="3,1,5ee67bf17d115e1f"/>
-<approved hash="3,1,11a9f5e9f4cc108c"/>
-<approved hash="3,1,559f163b0ef68fdb"/>
-<approved hash="3,1,247907b907f92439"/>
-<approved hash="3,1,531f4cdf8fd00cdd"/>
-<approved hash="3,1,fee4840287abfd4d"/>
-<approved hash="3,16,1bc418041b0b18cb"/>
-<approved hash="3,1,dc7dfa7be55ac35c"/>
-<approved hash="3,1,7dfc7b3abb475d11"/>
-<approved hash="3,1,4b9d8d9b8ddf4bd9"/>
-<approved hash="3,1,4bcc3dca32b744b1"/>
-<approved hash="3,1,4c3f3539795b0b1e"/>
-<approved hash="3,1,3f3c853a8a143012"/>
-<approved hash="3,1,65cc13ca130e6508"/>
-<approved hash="3,1,d22c732a732ed228"/>
-<approved hash="3,1,5cbe3eba7f074238"/>
-<approved hash="3,1,2f2d3d2b3d2f2f29"/>
-<approved hash="3,1,bd273231bffbbdea"/>
-<approved hash="3,1,b042b854b9f2f97a"/>
-<approved hash="3,1,9c7fcb79cb9c9c9a"/>
-<approved hash="3,1,2265b572863de43b"/>
-<approved hash="3,1,373e353c353c373e"/>
-<approved hash="3,1,2681248324832681"/>
-<approved hash="5,1,4090fa45afd25b85"/>
-<approved hash="5,1,e60350ac89ef30bc"/>
-<approved hash="5,1,fe9497839ca2ffb1"/>
-<approved hash="5,1,2487facbde1358a3"/>
-</errors>
 </board>
 </drawing>
 </eagle>
