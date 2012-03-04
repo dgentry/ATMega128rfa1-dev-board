@@ -5,7 +5,11 @@ See http://www.sparkfun.com/products/9734
 
 Some of the complaints in the comments that I've started to address:
 
-1) If you solder headers into the battery (for hitec connector), ISP, and uart pins, you won’t be able to insert the ISP programmer connector – there isn’t any room! If you use this, put your battery/uart headers underneath your board. A bit silly, but no other choice.
+1) If you solder headers into the battery (for hitec connector), ISP,
+and uart pins, you won’t be able to insert the ISP programmer
+connector – there isn’t any room! If you use this, put your
+battery/uart headers underneath your board. A bit silly, but no other
+choice.  
 [Moved the ISP header left, hopefully gives enough room]
 
 2) With nothing connected but a fully charged 6V battery, this board still has bad voltage drops when turning on the transmitter. You must solder on a capacitor between ground and 3.3V or it won’t work. I put a 20uF tantelum on it, and the resets went away.
