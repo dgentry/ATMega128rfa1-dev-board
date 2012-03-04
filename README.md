@@ -1,4 +1,4 @@
-A Better ATMega 128rfa1 Dev Board
+*A Better ATMega 128rfa1 Dev Board*
 
 See http://www.sparkfun.com/products/9734
 
