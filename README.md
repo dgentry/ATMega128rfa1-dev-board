@@ -1,4 +1,4 @@
-*A Better ATMega 128rfa1 Dev Board*
+##  Better ATMega 128rfa1 Dev Board
 
 See http://www.sparkfun.com/products/9734
 
@@ -22,7 +22,7 @@ Oh heck, if any of you guys at SparkFun are listening, here’s my wish-list for
 [You're populating your own board, drop away.  :]
 
 2) Make all of the break out pins on the top and bottom aligned to a 0.1" grid.
-[All the pins on the side are aligned.  You wouldn't want the three connectors at the bottom of the board to go into your breadboard anyway]
+*[All the pins on the side are aligned.  You wouldn't want the three connectors at the bottom of the board to go into your breadboard anyway*
 
 3) Add a JTAG port in addition to the ISP port. Feel free to use a 0.05" pitch connector for the JTAG port is space is tight.
 [to do]
