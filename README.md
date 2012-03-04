@@ -5,7 +5,7 @@ See http://www.sparkfun.com/products/9734
 
 Some of the complaints in the comments that I've started to address:
 
-1) If you solder headers into the battery (for hitec connector), ISP,
+#### If you solder headers into the battery (for hitec connector), ISP,
 and uart pins, you won’t be able to insert the ISP programmer
 connector – there isn’t any room! If you use this, put your
 battery/uart headers underneath your board. A bit silly, but no other
