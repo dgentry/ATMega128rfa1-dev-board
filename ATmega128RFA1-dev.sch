@@ -3213,11 +3213,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="4.826" y1="2.286" x2="5.334" y2="2.794" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 </package>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -3565,11 +3560,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="DEVDD@44" x="-27.94" y="33.02" length="short"/>
 <pin name="DEVDD@54" x="-27.94" y="30.48" length="short"/>
 <pin name="AVSS@61" x="-27.94" y="-50.8" length="short"/>
-</symbol>
-<symbol name="CREATIVE_COMMONS">
-<text x="0" y="5.08" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="0" y="0" size="1.778" layer="95">Design by:</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4868,18 +4858,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="CREATIVE_COMMONS">
-<gates>
-<gate name="G$1" symbol="CREATIVE_COMMONS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="jumper">
@@ -5069,7 +5047,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="JP15" library="SparkFun" deviceset="M04" device="PTH"/>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$1" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ" device=""/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
 </parts>
@@ -5154,7 +5131,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="JP15" gate="G$1" x="205.74" y="58.42" rot="R180"/>
 <instance part="P+7" gate="G$1" x="198.12" y="63.5"/>
 <instance part="GND22" gate="1" x="198.12" y="45.72"/>
-<instance part="U$1" gate="G$1" x="2.54" y="175.26"/>
 <instance part="SJ1" gate="1" x="157.48" y="45.72"/>
 <instance part="GND23" gate="1" x="152.4" y="40.64"/>
 </instances>

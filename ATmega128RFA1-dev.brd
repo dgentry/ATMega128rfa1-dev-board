@@ -182,8 +182,13 @@
 <text x="25.908" y="2.921" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GND</text>
 <text x="28.448" y="2.921" size="1.27" layer="21" font="vector" ratio="15" rot="R90">RX1</text>
 <text x="30.988" y="2.921" size="1.27" layer="21" font="vector" ratio="15" rot="R90">TX1</text>
-<text x="49.53" y="-35.56" size="1.778" layer="27" font="vector" ratio="15">Ryan Owens</text>
 <text x="13.208" y="5.842" size="1.27" layer="21" ratio="16">AVR ISP</text>
+<text x="43.18" y="55.88" size="1.778" layer="23">Released under the</text>
+<text x="43.18" y="52.07" size="1.778" layer="23">Creative Commons Attribution</text>
+<text x="43.18" y="48.26" size="1.778" layer="23">Share-Alike 3.0 License</text>
+<text x="43.18" y="44.45" size="1.778" layer="23">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="43.18" y="40.64" size="1.778" layer="23">Designed by:</text>
+<text x="43.18" y="36.83" size="1.778" layer="23" ratio="16">Ryan Owens</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1158,11 +1163,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
 </packages>
 </library>
 <library name="jumper">
@@ -1429,7 +1429,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="24.3078" y="6.5278" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="21.971" y="-1.651" size="1.27" layer="27"/>
 </element>
-<element name="U$1" library="SparkFun" package="CREATIVE_COMMONS" value="CREATIVE_COMMONS" x="19.05" y="-35.56"/>
 <element name="SJ1" library="jumper" package="SJ" value="" x="6.985" y="48.26" smashed="yes" rot="R270">
 <attribute name="VALUE" x="6.985" y="47.8599" size="0.02" layer="27" rot="R270"/>
 <attribute name="NAME" value="GND-TST" x="8.128" y="51.435" size="1.016" layer="27" ratio="16" rot="SR270"/>
